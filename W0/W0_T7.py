@@ -4,7 +4,7 @@ def main():
         user_input_number = float(input("Insert number: "))
         print(f"Inserted value is '{user_input_number}'")
     except ValueError:
-        print("Oops! That wasn't a valid number.")
+        print("Oops! That wasn't valid number.")
 
 # calling the main function
 if __name__ == "__main__":
